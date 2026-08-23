@@ -475,6 +475,12 @@ function App() {
                 >
                   Reset Workspace Layout
                 </button>
+
+                <div className="mt-2 pt-4 border-t-2 border-[#5a5a5a]/20 text-center">
+                  <p className="text-[10px] font-bold text-[#5a5a5a]/70 uppercase tracking-widest mb-1">About Ketalist</p>
+                  <p className="text-xs font-medium text-[#5a5a5a]">Created by <span className="font-black text-black">Moun Patel</span></p>
+                  <p className="text-[10px] font-medium text-[#5a5a5a]/80 mt-1">Supported by <span className="font-bold text-black">Ansh Nakrani</span> & <span className="font-bold text-black">Parth Patel</span></p>
+                </div>
               </div>
             )}
           </DraggableWindow>
