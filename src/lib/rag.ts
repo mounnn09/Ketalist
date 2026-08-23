@@ -6,7 +6,7 @@ export async function askTimeMachine(query: string) {
   if (!supabase) throw new Error("Supabase not initialized");
 
   // 1. Embed the user's query using Gemini
-  const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
+  const embedModel = genAI.getGenerativeModel({ model: "text-embedding-004" });
   const embedResult = await embedModel.embedContent(query.replace(/\n/g, ' '));
   const query_embedding = embedResult.embedding.values.slice(0, 768);
 
@@ -69,7 +69,7 @@ export async function askTimeMachine(query: string) {
 
   // 4. Generate the answer using Gemini
   const chatModel = genAI.getGenerativeModel({
-    model: "gemini-flash-latest",
+    model: "gemini-1.5-flash",
     systemInstruction: `You are Time Machine AI, a personal knowledge assistant. 
 Answer the user's question based strictly on the following context retrieved from their second brain, or the provided Video Transcript if applicable.
 Do not make up facts outside of this context.
@@ -108,7 +108,7 @@ export async function generateMockTest(topic: string, questionCount: number = 5)
   if (!genAI) throw new Error("Gemini not initialized");
   if (!supabase) throw new Error("Supabase not initialized");
 
-  const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
+  const embedModel = genAI.getGenerativeModel({ model: "text-embedding-004" });
   const embedResult = await embedModel.embedContent(topic.replace(/\n/g, ' '));
   const query_embedding = embedResult.embedding.values.slice(0, 768);
 
@@ -128,7 +128,7 @@ export async function generateMockTest(topic: string, questionCount: number = 5)
   const contextText = chunks.map((chunk: any) => `Document: ${chunk.document_title}\nContent: ${chunk.content}`).join("\n\n---\n\n");
 
   const chatModel = genAI.getGenerativeModel({
-    model: "gemini-flash-latest",
+    model: "gemini-1.5-flash",
     systemInstruction: `You are a strict teacher. Generate a ${questionCount}-question multiple choice test based ONLY on the provided context.
 Your output MUST be a valid JSON array of objects, where each object has:
 - "question": string

@@ -4,7 +4,7 @@ import { supabase } from './supabase';
 export async function generateEmbedding(text: string) {
   if (!genAI) throw new Error("Gemini not initialized. Missing VITE_GEMINI_API_KEY");
   
-  const model = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
+  const model = genAI.getGenerativeModel({ model: "text-embedding-004" });
   
   const result = await model.embedContent(text.replace(/\n/g, ' '));
   return result.embedding.values.slice(0, 768);
