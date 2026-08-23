@@ -115,9 +115,10 @@ export default function AuthView({ onLogin }: AuthViewProps) {
       
       {/* Credits Footer */}
       <div className="absolute bottom-4 left-0 w-full text-center z-10 px-4">
-        <p className="text-[#5a5a5a] text-xs font-bold bg-[#fdfaf6]/80 inline-block px-4 py-2 rounded-full border-2 border-[#5a5a5a] shadow-[2px_2px_0px_0px_#5a5a5a]">
-          Created by <span className="text-black">Moun Patel</span> • Supported by <span className="text-black">Ansh Nakrani</span> & <span className="text-black">Parth Patel</span>
-        </p>
+        <div className="text-[#5a5a5a] text-xs font-bold bg-[#fdfaf6]/80 inline-flex flex-col items-center px-6 py-2 rounded-xl border-2 border-[#5a5a5a] shadow-[2px_2px_0px_0px_#5a5a5a]">
+          <span>Created by <span className="text-black">Moun Patel</span></span>
+          <span className="text-[10px] mt-0.5 opacity-80">Supported by <span className="text-black">Ansh Nakrani</span> & <span className="text-black">Parth Patel</span></span>
+        </div>
       </div>
     </div>
   );
