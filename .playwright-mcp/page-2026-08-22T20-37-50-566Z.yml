@@ -1,0 +1,14 @@
+- generic [ref=f15e4]:
+  - banner [ref=f15e5]:
+    - generic [ref=f15e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f15e12]
+      - paragraph [ref=f15e13]: Your Second Brain
+    - button "Add Memory" [ref=f15e14]
+  - main [ref=f15e16]:
+    - generic [ref=f15e17]:
+      - generic [ref=f15e18]: Hi! I am your Time Machine AI. Ask me anything about what you've learned, and I'll find the exact source.
+      - generic [ref=f15e26]:
+        - generic [ref=f15e27]:
+          - textbox "Ask your second brain..." [ref=f15e28]
+          - button [disabled] [ref=f15e29]
+        - paragraph [ref=f15e34]: Gradient Rush Hackathon 2026

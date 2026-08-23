@@ -1,0 +1,24 @@
+- generic [ref=f18e3]:
+  - complementary [ref=f18e4]:
+    - generic [ref=f18e11]:
+      - heading "Time Machine" [level=1] [ref=f18e12]
+      - paragraph [ref=f18e13]: Your Second Brain
+    - generic [ref=f18e14]:
+      - generic [ref=f18e15]:
+        - heading "Views" [level=3] [ref=f18e16]
+        - generic [ref=f18e17]:
+          - button "Chat" [ref=f18e18]
+          - button "Mock Test" [ref=f18e21]
+      - generic [ref=f18e24]:
+        - generic [ref=f18e25]:
+          - heading "Sources" [level=3] [ref=f18e26]
+          - button [ref=f18e27]
+        - generic [ref=f18e30]: No sources added yet.
+  - main [ref=f18e32]:
+    - generic [ref=f18e33]:
+      - paragraph [ref=f18e43]: Hi! I am your Time Machine AI. Ask me anything about your sources.
+      - generic [ref=f18e46]:
+        - generic [ref=f18e47]:
+          - textbox "Ask your sources..." [ref=f18e48]
+          - button [disabled] [ref=f18e49]
+        - paragraph [ref=f18e53]: Time Machine can make mistakes. Verify important information.

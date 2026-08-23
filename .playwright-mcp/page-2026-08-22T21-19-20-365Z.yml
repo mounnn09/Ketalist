@@ -1,0 +1,26 @@
+- generic [ref=f7e4]:
+  - banner [ref=f7e5]:
+    - generic [ref=f7e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f7e12]
+      - paragraph [ref=f7e13]: Your Second Brain
+    - generic [ref=f7e14]:
+      - button "Search" [ref=f7e15]
+      - button "Add Memory" [ref=f7e19]
+      - button "Mock Test" [active] [ref=f7e21]
+  - main [ref=f7e24]:
+    - generic [ref=f7e47]:
+      - generic [ref=f7e48]:
+        - heading "Quiz Mode" [level=2] [ref=f7e52]
+        - paragraph [ref=f7e53]: Generate a custom mock test instantly from your second brain's knowledge.
+      - generic [ref=f7e54]:
+        - generic [ref=f7e55]:
+          - generic [ref=f7e56]: Topic
+          - textbox "e.g., Cellular Biology..." [ref=f7e58]
+        - generic [ref=f7e59]:
+          - generic [ref=f7e60]: Number of Questions
+          - generic [ref=f7e62]:
+            - button "3" [ref=f7e63]
+            - button "5" [ref=f7e64]
+            - button "10" [ref=f7e65]
+            - button "15" [ref=f7e66]
+        - button "Generate Test" [disabled] [ref=f7e68]

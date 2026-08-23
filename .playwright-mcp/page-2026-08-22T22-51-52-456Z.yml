@@ -1,0 +1,14 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Time Machine AI
+      - button [ref=e7]
+    - paragraph [ref=e13]: Send a message below to start chatting!
+  - generic [ref=e14]:
+    - heading "Your Sources" [level=2] [ref=e16]
+    - paragraph [ref=e24]: No sources yet
+  - generic [ref=e25]:
+    - generic [ref=e26]: Enter your message
+    - generic [ref=e28]:
+      - textbox "Ask Time Machine..." [ref=e29]
+      - button [disabled] [ref=e30]

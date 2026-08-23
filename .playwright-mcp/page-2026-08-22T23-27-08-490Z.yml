@@ -1,0 +1,24 @@
+- generic [ref=f9e3]:
+  - generic [ref=f9e4]:
+    - generic [ref=f9e5]:
+      - heading "Time Machine AI" [level=3] [ref=f9e6]
+      - button [ref=f9e7]
+    - paragraph [ref=f9e13]: Send a message below to start chatting!
+  - generic [ref=f9e22]:
+    - generic [ref=f9e23]:
+      - heading "Apps & Sources" [level=2] [ref=f9e24]
+      - button [ref=f9e25]
+    - button "Workspace default" [ref=f9e29]:
+      - generic [ref=f9e37]:
+        - generic [ref=f9e38]: Workspace
+        - generic [ref=f9e39]: default
+    - generic [ref=f9e42]:
+      - button "Calendar" [ref=f9e43]
+      - button "Quiz Generator" [ref=f9e47]
+      - button "Settings" [ref=f9e61]
+  - generic [ref=f9e67]:
+    - generic [ref=f9e68]: Enter your message
+    - generic [ref=f9e70]:
+      - button "Add new note" [ref=f9e71]
+      - textbox "Ask Time Machine..." [ref=f9e74]
+      - button [disabled] [ref=f9e75]

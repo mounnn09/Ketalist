@@ -1,0 +1,19 @@
+- generic [ref=f14e4]:
+  - banner [ref=f14e5]:
+    - generic [ref=f14e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f14e12]
+      - paragraph [ref=f14e13]: Your Second Brain
+    - generic [ref=f14e14]:
+      - button "Search" [ref=f14e15]
+      - button "Add Memory" [ref=f14e19]
+      - button "Mock Test" [ref=f14e21]
+  - main [ref=f14e24]:
+    - generic [ref=f14e25]:
+      - generic [ref=f14e26]:
+        - paragraph [ref=f14e34]: Hi! I am your Time Machine AI. Ask me anything about what you've learned, and I'll find the exact source.
+        - generic [ref=f14e45]: Summarize this video https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      - generic [ref=f14e36]:
+        - generic [ref=f14e37]:
+          - textbox "Ask your second brain..." [active] [ref=f14e38]
+          - button [disabled] [ref=f14e39]
+        - paragraph [ref=f14e44]: Gradient Rush Hackathon 2026

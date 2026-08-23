@@ -1,0 +1,17 @@
+- generic [ref=f2e3]:
+  - generic [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - generic [ref=f2e6]: Time Machine AI
+      - button [ref=f2e7]
+    - paragraph [ref=f2e13]: Send a message below to start chatting!
+  - generic [ref=f2e14]:
+    - heading "Apps & Sources" [level=2] [ref=f2e16]
+    - button "Quiz Generator" [ref=f2e23]
+    - generic [ref=f2e37]:
+      - heading "Your Documents" [level=3] [ref=f2e38]
+      - paragraph [ref=f2e40]: No sources yet
+  - generic [ref=f2e41]:
+    - generic [ref=f2e42]: Enter your message
+    - generic [ref=f2e44]:
+      - textbox "Ask Time Machine..." [ref=f2e45]
+      - button [disabled] [ref=f2e46]

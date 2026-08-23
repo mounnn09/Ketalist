@@ -1,0 +1,20 @@
+- generic [ref=f5e4]:
+  - banner [ref=f5e5]:
+    - generic [ref=f5e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f5e12]
+      - paragraph [ref=f5e13]: Your Second Brain
+    - generic [ref=f5e14]:
+      - button "Search" [ref=f5e15]
+      - button "Add Memory" [ref=f5e19]
+      - button "Mock Test" [ref=f5e21]
+  - main [ref=f5e24]:
+    - generic [ref=f5e25]:
+      - generic [ref=f5e26]:
+        - paragraph [ref=f5e34]: Hi! I am your Time Machine AI. Ask me anything about what you've learned, and I'll find the exact source.
+        - generic [ref=f5e45]: "1"
+        - paragraph [ref=f5e59]: I couldn't find any memories related to that. Try adding some documents first!
+      - generic [ref=f5e36]:
+        - generic [ref=f5e37]:
+          - textbox "Ask your second brain..." [active] [ref=f5e38]
+          - button [disabled] [ref=f5e39]
+        - paragraph [ref=f5e44]: Gradient Rush Hackathon 2026

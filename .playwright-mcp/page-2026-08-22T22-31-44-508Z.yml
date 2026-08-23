@@ -1,0 +1,24 @@
+- generic [ref=f16e3]:
+  - complementary [ref=f16e4]:
+    - generic [ref=f16e11]:
+      - heading "Time Machine" [level=1] [ref=f16e12]
+      - paragraph [ref=f16e13]: NotebookLM Clone
+    - generic [ref=f16e14]:
+      - generic [ref=f16e15]:
+        - heading "Views" [level=3] [ref=f16e16]
+        - generic [ref=f16e17]:
+          - button "Chat" [ref=f16e18]
+          - button "Mock Test" [ref=f16e21]
+      - generic [ref=f16e24]:
+        - generic [ref=f16e25]:
+          - heading "Sources" [level=3] [ref=f16e26]
+          - button [ref=f16e27]
+        - generic [ref=f16e30]: No sources added yet.
+  - main [ref=f16e32]:
+    - generic [ref=f16e33]:
+      - paragraph [ref=f16e43]: Hi! I am your Time Machine AI. Ask me anything about your sources.
+      - generic [ref=f16e46]:
+        - generic [ref=f16e47]:
+          - textbox "Ask your sources..." [ref=f16e48]
+          - button [disabled] [ref=f16e49]
+        - paragraph [ref=f16e53]: Time Machine can make mistakes. Verify important information.

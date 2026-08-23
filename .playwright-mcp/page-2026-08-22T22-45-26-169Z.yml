@@ -1,0 +1,41 @@
+- generic [ref=f30e2]:
+  - generic [ref=f30e4]:
+    - generic:
+      - generic:
+        - heading "Welcome to Time Machine" [level=1]
+        - paragraph: The intelligent workspace that never forgets.
+      - generic:
+        - heading "Build Your Second Brain" [level=1]
+        - paragraph: Store PDFs, YouTube links, and notes. Instantly processed.
+      - generic:
+        - heading "Intelligent Recall" [level=1]
+        - paragraph: Ask anything. Retrieve exact sources completely hallucination-free.
+      - generic [ref=f30e27]:
+        - heading "Master Your Material" [level=1] [ref=f30e28]
+        - paragraph [ref=f30e29]: Generate interactive mock tests based on your exact sources.
+        - button "Start Building"
+    - generic [ref=f30e30]: Scroll down
+  - generic [ref=f30e34]:
+    - complementary [ref=f30e35]:
+      - generic [ref=f30e42]:
+        - heading "Time Machine" [level=1] [ref=f30e43]
+        - paragraph [ref=f30e44]: Your Second Brain
+      - generic [ref=f30e45]:
+        - generic [ref=f30e46]:
+          - heading "Views" [level=3] [ref=f30e47]
+          - generic [ref=f30e48]:
+            - button "Chat" [ref=f30e49]
+            - button "Mock Test" [ref=f30e52]
+        - generic [ref=f30e55]:
+          - generic [ref=f30e56]:
+            - heading "Sources" [level=3] [ref=f30e57]
+            - button [ref=f30e58]
+          - generic [ref=f30e61]: No sources added yet.
+    - main [ref=f30e63]:
+      - generic [ref=f30e64]:
+        - paragraph [ref=f30e74]: Hi! I am your Time Machine AI. Ask me anything about your sources.
+        - generic [ref=f30e77]:
+          - generic [ref=f30e78]:
+            - textbox "Ask your sources..." [ref=f30e79]
+            - button [disabled] [ref=f30e80]
+          - paragraph [ref=f30e84]: Time Machine can make mistakes. Verify important information.

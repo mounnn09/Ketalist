@@ -1,0 +1,18 @@
+- generic [ref=f16e4]:
+  - banner [ref=f16e5]:
+    - generic [ref=f16e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f16e12]
+      - paragraph [ref=f16e13]: Your Second Brain
+    - button "Add Memory" [ref=f16e63]
+  - main [ref=f16e16]:
+    - generic [ref=f16e65]:
+      - generic [ref=f16e66]:
+        - generic [ref=f16e67]: Hi! I am your Time Machine AI. Ask me anything about what you've learned, and I'll find the exact source.
+        - generic [ref=f16e83]: "Oops, something went wrong: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 ] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        - generic [ref=f16e94]: "Oops, something went wrong: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 ] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements."
+        - generic [ref=f16e105]: generous free tier
+      - generic [ref=f16e74]:
+        - generic [ref=f16e75]:
+          - textbox "Ask your second brain..." [active] [ref=f16e76]
+          - button [disabled] [ref=f16e77]
+        - paragraph [ref=f16e82]: Gradient Rush Hackathon 2026

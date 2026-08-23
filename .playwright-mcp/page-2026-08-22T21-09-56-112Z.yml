@@ -1,0 +1,11 @@
+- generic [ref=f4e4]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f4e12]
+      - paragraph [ref=f4e13]: Your Second Brain
+    - generic [ref=f4e14]:
+      - button "Search" [ref=f4e15]
+      - button "Add Memory" [ref=f4e19]
+      - button "Mock Test" [ref=f4e21]
+  - main [ref=f4e24]:
+    - paragraph [ref=f4e59]: Reading your mind and generating questions...

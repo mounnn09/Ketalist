@@ -1,0 +1,20 @@
+- generic [ref=f16e4]:
+  - banner [ref=f16e5]:
+    - generic [ref=f16e11] [cursor=pointer]:
+      - heading "Time Machine AI" [level=1] [ref=f16e12]
+      - paragraph [ref=f16e13]: Your Second Brain
+    - button "Search Memories" [ref=f16e35]
+  - main [ref=f16e16]:
+    - generic [ref=f16e39]:
+      - generic [ref=f16e40]:
+        - heading "Capture a Memory" [level=2] [ref=f16e41]
+        - paragraph [ref=f16e42]: Paste notes, links, or drop PDFs to add them to your second brain.
+      - generic [ref=f16e43]:
+        - generic [ref=f16e44]:
+          - button "text" [ref=f16e45]
+          - button "link" [ref=f16e49]
+          - button "pdf" [ref=f16e53]
+        - generic [ref=f16e57]:
+          - textbox "Title (e.g., Week 4 CS101 Lecture)" [ref=f16e59]
+          - textbox "Paste your notes or text here..." [ref=f16e60]
+          - button "Memory Saved! ✓" [disabled] [ref=f16e62]
