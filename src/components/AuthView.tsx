@@ -12,15 +12,16 @@ export default function AuthView({ onLogin }: AuthViewProps) {
   const [error, setError] = useState('');
 
   React.useEffect(() => {
-    // Check if there's an error in the URL hash (from Supabase/Google redirects)
-    if (window.location.hash && window.location.hash.includes('error=')) {
-      const params = new URLSearchParams(window.location.hash.substring(1));
-      const errorDesc = params.get('error_description');
-      if (errorDesc) {
-        setError(decodeURIComponent(errorDesc.replace(/\+/g, ' ')));
-        // Clean up the URL
-        window.history.replaceState(null, '', window.location.pathname);
-      }
+    // Check if there's an error in the URL hash or query string (from Supabase/Google redirects)
+    const hashParams = new URLSearchParams(window.location.hash.substring(1));
+    const searchParams = new URLSearchParams(window.location.search);
+    
+    const errorDesc = hashParams.get('error_description') || searchParams.get('error_description');
+    
+    if (errorDesc) {
+      setError(decodeURIComponent(errorDesc.replace(/\+/g, ' ')));
+      // Clean up the URL
+      window.history.replaceState(null, '', window.location.pathname);
     }
   }, []);
 
