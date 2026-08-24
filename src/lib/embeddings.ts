@@ -41,10 +41,17 @@ export async function processAndStoreDocument(
 ) {
   if (!supabase) throw new Error("Supabase not initialized");
 
+  let actualUserId = userId;
+  if (!actualUserId) {
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) throw new Error("User not authenticated");
+    actualUserId = user.id;
+  }
+
   // 1. Insert Document
   const { data: docData, error: docError } = await supabase
     .from('documents')
-    .insert([{ title, source_type: sourceType, content_text: content, user_id: userId }])
+    .insert([{ title, source_type: sourceType, content_text: content, user_id: actualUserId }])
     .select()
     .single();
 
